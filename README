@@ -1,0 +1,25 @@
+Sound Detection Project 
+
+December 25,2016
+
+1. Configration
+1.1 Hardware requirement
+This project is built on a raspberry pi 3, the user needs to 
+find a USB sound card and a microohine. In order the acoustic
+data should be sent to a server, ethernet connection is also 
+needed.
+
+1.2 Software configuration
+a. setting USB sound card as default audio device
+b. downgradealsa-utils from 2.0.28 to 2.0.25
+c. install libcurl library
+
+2. Installation
+There will be a tar file named appdev.tar, we need to input
+tar -xvf appdev.tar to decompress tar file, after that type make.
+Before running the application we need to run alsamixer and set the 
+Mic to the maximum.
+
+3. Lisence
+This project is licensed under the MIT license.
+Copyright © 2016, Tan Zhihao
